@@ -1,0 +1,233 @@
+/* * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+* * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+* * * {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+* * * * {
+  background-color: rgba(255, 0, 255, 0.2);
+}
+* * * * * {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+* * * * * * {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+* * * * * * * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+* * * * * * * * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+* * * * * * * * * {
+  background-color: rgba(0, 0, 255, 0.2);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: Didot, Andale Mono, monospace;
+}
+button {
+  cursor: pointer;
+}
+.section1,
+.section3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+header .logo {
+  width: 80px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navigation li {
+  margin-left: 120px;
+  margin-right: 90px;
+}
+
+.navigation a {
+  color: black;
+  font-family: Andale Mono, monospace;
+}
+.underline {
+  position: relative;
+}
+.underline:before {
+  position: absolute;
+  content: " ";
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150%;
+  width: 15px;
+  height: 2px;
+  background: black;
+}
+.basicWeb_container {
+  padding: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: wrap;
+}
+.spider_web {
+  width: 500px;
+  margin-left: 70px;
+}
+.basicWeb_container h1 {
+  font-family: Didot;
+  font-size: 29px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.mmd2020 {
+  width: 250px;
+}
+.basicWeb_container p {
+  font-family: Andale Mono, monospace;
+  font-size: 12px;
+  max-width: 300px;
+}
+.btn_view {
+  margin-top: 30px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border: solid 1px black;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 12px;
+  color: black;
+  font-family: Andale Mono, monospace;
+}
+.btn_view:hover {
+  background: black;
+  color: white;
+}
+.section2 {
+  height: 100vh;
+  background-image: url("./S1/IMGs/BgBasicUX.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.basicUX_container {
+  background: black;
+  height: 100vh;
+  max-width: 460px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.basicUX_container img {
+  filter: invert(1);
+  margin-bottom: 20px;
+}
+.basicUX_container img {
+  max-width: 300px;
+  width: 100%;
+}
+.basicUX_container p {
+  max-width: 250px;
+  width: 100%;
+  font-family: Andale Mono, monospace;
+}
+.number {
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  font-size: 80px;
+}
+.section2 h1 {
+  color: white;
+  font-family: Didot;
+  font-size: 41px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.invert {
+  filter: invert(1);
+}
+.section3 {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.basicAnimation_container {
+  padding: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.basicAnimation_text p {
+  font-family: Andale Mono, monospace;
+  font-size: 12px;
+  max-width: 300px;
+}
+.basicAnimation_text h1 {
+  font-family: Didot;
+  font-size: 29px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.basicAnimation_text {
+  max-width: 30vw;
+}
+.basicAnimation_container img {
+  max-width: 40vw;
+}
+.section4 {
+  height: 100vh;
+  background-image: url("./S1/IMGs/BgContent.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.basicContent_text p {
+  font-family: Andale Mono, monospace;
+  font-size: 12px;
+  max-width: 300px;
+}
+.basicContent_text h1 {
+  font-family: Didot;
+  font-size: 29px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 200px;
+}
+.basicContent_text {
+  margin-top: 100px;
+  max-width: 25vw;
+  margin-right: 600px;
+}

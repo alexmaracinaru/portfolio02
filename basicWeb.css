@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: Didot, Andale Mono, monospace;
+}
+button {
+  cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+header .logo {
+  width: 80px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navigation li {
+  margin-left: 120px;
+  margin-right: 90px;
+}
+
+.navigation a {
+  color: black;
+  font-family: Andale Mono, monospace;
+}
+.underline {
+  position: relative;
+}
+.underline:before {
+  position: absolute;
+  content: " ";
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150%;
+  width: 15px;
+  height: 2px;
+  background: black;
+}
+.projects {
+  margin: 0 100px;
+  margin-bottom: 100px;
+}
+.projects h1 {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.projects_container {
+  display: flex;
+  align-items: center;
+}
+.project {
+  flex: 1 1 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background: black;
+  margin: 0 10px;
+  background-size: cover;
+  color: white;
+}
+.rc {
+  background-image: url(./S1/IMGs/RC.png);
+}
+.mc {
+  background-image: url(./S1/IMGs/MC.png);
+}
+.pt {
+  background-image: url(./S1/IMGs/PT.png);
+}
+.projects h1 {
+  font-family: Didot;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.project p {
+  font-family: Didot;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
